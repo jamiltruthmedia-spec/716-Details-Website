@@ -624,6 +624,7 @@ a {
     transform: scale(1.05) translateY(-10px);
 }
 
+/* Fix for Most Popular Badge - Keep it INSIDE the card */
 .package-badge {
     position: absolute;
     top: 20px;
@@ -634,6 +635,42 @@ a {
     border-radius: 25px;
     font-weight: 600;
     font-size: 0.9rem;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Add padding to the right side of package header to avoid badge overlap */
+.package-card.featured .package-header {
+    padding-right: 140px; /* Make room for the badge */
+}
+
+/* Mobile fixes */
+@media (max-width: 768px) {
+    .package-badge {
+        top: 15px;
+        right: 15px;
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .package-card.featured .package-header {
+        padding-right: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .package-badge {
+        position: relative;
+        top: 0;
+        right: 0;
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    
+    .package-card.featured .package-header {
+        padding-right: 2.5rem; /* Reset to normal */
+        text-align: center;
+    }
 }
 
 .package-header {
