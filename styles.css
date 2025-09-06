@@ -1538,3 +1538,49 @@ a {
         padding: 2rem;
     }
 }
+/* Fix for Most Popular Badge Position */
+.package-badge {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    background: #d4af37;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Add top margin to package header when badge is present */
+.package-card.featured .package-header {
+    padding-top: 3.5rem;
+}
+
+/* Mobile fixes for badge */
+@media (max-width: 768px) {
+    .package-badge {
+        top: -12px;
+        right: 15px;
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .package-card.featured .package-header {
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .package-badge {
+        top: -10px;
+        right: 10px;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
+    }
+    
+    .package-card.featured .package-header {
+        padding-top: 2.8rem;
+    }
+}
