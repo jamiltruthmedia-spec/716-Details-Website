@@ -8,8 +8,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     line-height: 1.6;
-    color: #ffffff;
-    background-color: #000000;
+    color: #ffff;
+    background-color: #0000;
 }
 
 .container {
@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: #ffff;
 }
 
 h1 { font-size: 3.5rem; }
@@ -33,12 +33,12 @@ h3 { font-size: 1.8rem; }
 p {
     margin-bottom: 1rem;
     line-height: 1.7;
-    color: #ffffff;
+    color: #ffff;
 }
 
 /* Links */
 a {
-    color: #ffffff;
+    color: #ffff;
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -86,7 +86,7 @@ a {
 .nav-logo a {
     font-size: 2rem;
     font-weight: 800;
-    color: #ffffff;
+    color: #ffff;
     text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ a {
 }
 
 .nav-menu a {
-    color: #ffffff;
+    color: #ffff;
     text-decoration: none;
     font-weight: 500;
     font-size: 1rem;
@@ -113,12 +113,16 @@ a {
     color: #4F7CFF;
 }
 
+.nav-menu a.active {
+    color: #4F7CFF;
+}
+
 /* Dropdown Menu */
 .dropdown-menu {
     position: absolute;
     top: 100%;
     left: 0;
-    background: #000000;
+    background: #0000;
     min-width: 220px;
     opacity: 0;
     visibility: hidden;
@@ -145,14 +149,14 @@ a {
 .dropdown-menu a {
     display: block;
     padding: 0.75rem 1.5rem;
-    color: #ffffff;
+    color: #ffff;
     text-decoration: none;
     transition: all 0.3s ease;
     font-size: 0.95rem;
 }
 
 .dropdown-menu a:hover {
-    background-color: #111111;
+    background-color: #1111;
     color: #4F7CFF;
 }
 
@@ -217,7 +221,7 @@ a {
 
 .cta-btn.secondary:hover {
     background: white;
-    color: #000000;
+    color: #0000;
 }
 
 /* Hero Section */
@@ -230,7 +234,7 @@ a {
     text-align: center;
     color: white;
     overflow: hidden;
-    background: #000000;
+    background: #0000;
 }
 
 .hero-background {
@@ -271,7 +275,7 @@ a {
     font-weight: 800;
     margin-bottom: 1.5rem;
     line-height: 1.1;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .hero-subtitle {
@@ -301,12 +305,12 @@ a {
     font-size: 1rem;
     opacity: 0.9;
     font-weight: 500;
-    color: #ffffff;
+    color: #ffff;
 }
 
 /* Service Hero (for service pages) */
 .service-hero {
-    background: #000000;
+    background: #0000;
     color: white;
     padding: 140px 0 100px;
     text-align: center;
@@ -331,7 +335,7 @@ a {
     margin-bottom: 1.5rem;
     font-weight: 800;
     text-align: center;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .service-hero .hero-subtitle {
@@ -350,7 +354,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .service-hero .hero-cta {
@@ -363,7 +367,7 @@ a {
 /* Service Areas Preview */
 .service-areas-preview {
     padding: 80px 0;
-    background: #111111;
+    background: #1111;
 }
 
 .service-areas-preview h2 {
@@ -371,7 +375,7 @@ a {
     margin-bottom: 4rem;
     font-size: 2.8rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .areas-grid {
@@ -384,12 +388,12 @@ a {
 .areas-intro {
     text-align: center;
     font-size: 1.2rem;
-    color: #cccccc;
+    color: #cccc;
     margin-bottom: 4rem;
 }
 
 .area-item {
-    background: #000000;
+    background: #0000;
     padding: 2rem 1.5rem;
     border-radius: 12px;
     font-weight: 600;
@@ -397,7 +401,7 @@ a {
     box-shadow: 0 4px 20px rgba(255,255,255,0.08);
     transition: all 0.3s ease;
     border: 1px solid rgba(255,255,255,0.05);
-    color: #ffffff;
+    color: #ffff;
 }
 
 .area-item:hover {
@@ -406,10 +410,22 @@ a {
     border-color: #4F7CFF;
 }
 
+.area-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #ffff;
+}
+
+.area-item p {
+    font-size: 1rem;
+    color: #cccc;
+    line-height: 1.6;
+}
+
 /* About Section */
 .about {
     padding: 100px 0;
-    background: #000000;
+    background: #0000;
 }
 
 .about-content {
@@ -422,14 +438,14 @@ a {
     font-size: 3rem;
     margin-bottom: 2.5rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .about p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     line-height: 1.8;
-    color: #cccccc;
+    color: #cccc;
 }
 
 .about-features {
@@ -449,7 +465,7 @@ a {
 /* Services Section */
 .services {
     padding: 100px 0;
-    background: #111111;
+    background: #1111;
 }
 
 .services h2 {
@@ -457,7 +473,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .services-grid {
@@ -467,7 +483,7 @@ a {
 }
 
 .service-card {
-    background: #000000;
+    background: #0000;
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -515,7 +531,7 @@ a {
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .service-card h3 a {
@@ -537,7 +553,7 @@ a {
     margin-bottom: 0.8rem;
     font-size: 1rem;
     line-height: 1.6;
-    color: #cccccc;
+    color: #cccc;
 }
 
 .service-price {
@@ -567,7 +583,7 @@ a {
 /* Service Benefits (for service pages) */
 .service-benefits {
     padding: 100px 0;
-    background: #000000;
+    background: #0000;
 }
 
 .service-benefits h2 {
@@ -575,7 +591,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .benefits-grid {
@@ -599,19 +615,19 @@ a {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .benefit-card p {
     font-size: 1.1rem;
-    color: #cccccc;
+    color: #cccc;
     line-height: 1.7;
 }
 
 /* Service Packages (for service pages) */
 .service-packages {
     padding: 100px 0;
-    background: #111111;
+    background: #1111;
 }
 
 .service-packages h2 {
@@ -619,7 +635,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .packages-grid {
@@ -629,7 +645,7 @@ a {
 }
 
 .package-card {
-    background: #000000;
+    background: #0000;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -680,7 +696,7 @@ a {
     font-size: 1.8rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .package-price {
@@ -696,10 +712,10 @@ a {
 
 .package-features li {
     padding: 1rem 0;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #3333;
     font-size: 1rem;
     line-height: 1.6;
-    color: #cccccc;
+    color: #cccc;
 }
 
 .package-features li:last-child {
@@ -728,7 +744,7 @@ a {
 /* Service Process */
 .service-process, .tint-process {
     padding: 100px 0;
-    background: #000000;
+    background: #0000;
 }
 
 .service-process h2, .tint-process h2 {
@@ -736,7 +752,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .process-steps {
@@ -768,18 +784,122 @@ a {
     font-size: 1.4rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .process-step p {
-    color: #cccccc;
+    color: #cccc;
     line-height: 1.7;
+}
+
+/* Common Issues Section */
+.common-issues {
+    padding: 100px 0;
+    background: #1111;
+}
+
+.common-issues h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.issues-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+}
+
+.issue-card {
+    background: #0000;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(255,255,255,0.08);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255,255,255,0.05);
+    border-left: 4px solid #4F7CFF;
+}
+
+.issue-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(79,124,255,0.3);
+    border-color: #4F7CFF;
+}
+
+.issue-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.issue-card p {
+    color: #cccc;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 100px 0;
+    background: #0000;
+}
+
+.why-choose-us h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.reason-card {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #1111;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(255,255,255,0.08);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.reason-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(79,124,255,0.3);
+    border-color: #4F7CFF;
+}
+
+.reason-icon {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #4F7CFF;
+}
+
+.reason-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.reason-card p {
+    color: #cccc;
+    line-height: 1.7;
+    font-size: 1.1rem;
 }
 
 /* Tint Options */
 .tint-options {
     padding: 100px 0;
-    background: #111111;
+    background: #1111;
 }
 
 .tint-options h2 {
@@ -787,7 +907,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .tint-grid {
@@ -797,7 +917,7 @@ a {
 }
 
 .tint-card {
-    background: #000000;
+    background: #0000;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -839,7 +959,7 @@ a {
     font-size: 1.8rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .tint-percentage {
@@ -857,10 +977,10 @@ a {
 
 .tint-features li {
     padding: 0.8rem 0;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #3333;
     font-size: 1rem;
     line-height: 1.6;
-    color: #cccccc;
+    color: #cccc;
 }
 
 .tint-features li:last-child {
@@ -895,7 +1015,7 @@ a {
 /* Legal Info */
 .legal-info {
     padding: 100px 0;
-    background: #000000;
+    background: #0000;
 }
 
 .legal-info h2 {
@@ -903,7 +1023,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .legal-grid {
@@ -914,7 +1034,7 @@ a {
 }
 
 .legal-card {
-    background: #111111;
+    background: #1111;
     padding: 2.5rem;
     border-radius: 16px;
     text-align: center;
@@ -925,11 +1045,11 @@ a {
     font-size: 1.4rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .legal-card p {
-    color: #cccccc;
+    color: #cccc;
     line-height: 1.7;
     font-size: 1.1rem;
 }
@@ -937,7 +1057,7 @@ a {
 .legal-note {
     text-align: center;
     font-size: 1.1rem;
-    color: #cccccc;
+    color: #cccc;
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.7;
@@ -946,7 +1066,7 @@ a {
 /* Related Services */
 .related-services {
     padding: 100px 0;
-    background: #111111;
+    background: #1111;
 }
 
 .related-services h2 {
@@ -954,13 +1074,13 @@ a {
     font-size: 3rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .related-services > p {
     text-align: center;
     font-size: 1.2rem;
-    color: #cccccc;
+    color: #cccc;
     margin-bottom: 4rem;
 }
 
@@ -971,7 +1091,7 @@ a {
 }
 
 .related-card {
-    background: #000000;
+    background: #0000;
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -989,11 +1109,11 @@ a {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .related-card p {
-    color: #cccccc;
+    color: #cccc;
     line-height: 1.7;
     margin-bottom: 1.5rem;
 }
@@ -1021,14 +1141,14 @@ a {
     font-size: 3rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .final-cta p {
     font-size: 1.2rem;
     margin-bottom: 2.5rem;
     opacity: 0.95;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .cta-buttons {
@@ -1077,7 +1197,7 @@ a {
 /* Service Areas Detail */
 .service-areas, .service-areas-detail {
     padding: 100px 0;
-    background: #111111;
+    background: #1111;
 }
 
 .service-areas h2, .service-areas-detail h2 {
@@ -1085,13 +1205,13 @@ a {
     font-size: 3rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .section-subtitle {
     text-align: center;
     font-size: 1.2rem;
-    color: #cccccc;
+    color: #cccc;
     margin-bottom: 4rem;
 }
 
@@ -1102,7 +1222,7 @@ a {
 }
 
 .area-detail-card, .area-card {
-    background: #000000;
+    background: #0000;
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -1120,11 +1240,11 @@ a {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .area-detail-card p, .area-card p {
-    color: #cccccc;
+    color: #cccc;
     line-height: 1.7;
     margin-bottom: 1.5rem;
 }
@@ -1157,14 +1277,14 @@ a {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .emergency-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     opacity: 0.95;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .cta-btn.emergency {
@@ -1183,7 +1303,7 @@ a {
 /* Service Selection CTA */
 .service-selection-cta {
     padding: 100px 0;
-    background: #000000;
+    background: #0000;
     text-align: center;
 }
 
@@ -1191,12 +1311,12 @@ a {
     font-size: 2.8rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .selection-content p {
     font-size: 1.2rem;
-    color: #cccccc;
+    color: #cccc;
     margin-bottom: 2.5rem;
 }
 
@@ -1224,7 +1344,7 @@ a {
 /* FAQ Section */
 .faq-section {
     padding: 100px 0;
-    background: #000000;
+    background: #0000;
 }
 
 .faq-section h2 {
@@ -1232,7 +1352,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .faq-grid {
@@ -1243,7 +1363,7 @@ a {
 
 .faq-item {
     padding: 2rem;
-    background: #111111;
+    background: #1111;
     border-radius: 12px;
     border-left: 4px solid #4F7CFF;
 }
@@ -1252,18 +1372,18 @@ a {
     font-size: 1.3rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .faq-item p {
-    color: #cccccc;
+    color: #cccc;
     line-height: 1.7;
 }
 
 /* Contact Section */
 .contact, .contact-section {
     padding: 100px 0;
-    background: #111111;
+    background: #1111;
 }
 
 .contact h2, .contact-section h2 {
@@ -1271,7 +1391,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .contact-content {
@@ -1285,17 +1405,32 @@ a {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #cccc;
+}
+
+.contact-info a {
+    color: #4F7CFF;
+    font-weight: 600;
+}
+
+.contact-info a:hover {
+    color: #3B5FE6;
 }
 
 .contact-item {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
-    color: #cccccc;
+    color: #cccc;
 }
 
 .contact-item strong {
-    color: #ffffff;
+    color: #ffff;
     font-weight: 600;
 }
 
@@ -1309,7 +1444,7 @@ a {
 }
 
 .contact-form {
-    background: #000000;
+    background: #0000;
     padding: 3rem;
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -1320,7 +1455,7 @@ a {
     font-size: 1.8rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .form-row {
@@ -1339,18 +1474,40 @@ a {
 .form-group textarea {
     width: 100%;
     padding: 1rem;
-    border: 2px solid #333333;
+    border: 2px solid #3333;
     border-radius: 8px;
     font-size: 1rem;
     transition: border-color 0.3s ease;
     font-family: inherit;
-    background: #111111;
-    color: #ffffff;
+    background: #1111;
+    color: #ffff;
 }
 
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
+    outline: none;
+    border-color: #4F7CFF;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #3333;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    font-family: inherit;
+    background: #1111;
+    color: #ffff;
+    margin-bottom: 1.5rem;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
     outline: none;
     border-color: #4F7CFF;
 }
@@ -1375,10 +1532,10 @@ a {
 
 /* Footer */
 .footer {
-    background: #000000;
+    background: #0000;
     color: white;
     padding: 60px 0 30px;
-    border-top: 1px solid #333333;
+    border-top: 1px solid #3333;
 }
 
 .footer-content {
@@ -1392,18 +1549,18 @@ a {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .footer-section h4 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 600;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .footer-section p {
-    color: #cccccc;
+    color: #cccc;
     line-height: 1.7;
     margin-bottom: 1.5rem;
 }
@@ -1411,7 +1568,7 @@ a {
 .footer-contact p {
     margin-bottom: 0.5rem;
     font-size: 1rem;
-    color: #cccccc;
+    color: #cccc;
 }
 
 .footer-contact a {
@@ -1428,7 +1585,7 @@ a {
 }
 
 .footer-section ul li a {
-    color: #cccccc;
+    color: #cccc;
     transition: color 0.3s ease;
 }
 
@@ -1437,10 +1594,10 @@ a {
 }
 
 .footer-bottom {
-    border-top: 1px solid #333333;
+    border-top: 1px solid #3333;
     padding-top: 2rem;
     text-align: center;
-    color: #cccccc;
+    color: #cccc;
 }
 
 .footer-bottom a {
@@ -1458,7 +1615,7 @@ a {
 .hamburger .bar {
     width: 25px;
     height: 3px;
-    background-color: #ffffff;
+    background-color: #ffff;
     margin: 3px 0;
     transition: 0.3s;
 }
@@ -1502,14 +1659,14 @@ a {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: #000000;
+        background-color: #0000;
         width: 100%;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(255,255,255,0.05);
         padding: 2rem 0;
         gap: 0;
-        border-top: 1px solid #333333;
+        border-top: 1px solid #3333;
     }
 
     .nav-menu.active {
@@ -1519,8 +1676,8 @@ a {
     .nav-menu a {
         padding: 1rem;
         display: block;
-        border-bottom: 1px solid #333333;
-        color: #ffffff;
+        border-bottom: 1px solid #3333;
+        color: #ffff;
     }
 
     /* Mobile dropdown styles */
@@ -1529,7 +1686,7 @@ a {
         opacity: 1;
         visibility: visible;
         transform: none;
-        background: #111111;
+        background: #1111;
         box-shadow: none;
         border: none;
         margin: 0;
@@ -1544,13 +1701,13 @@ a {
 
     .dropdown-menu a {
         padding: 0.75rem 2rem;
-        border-bottom: 1px solid #333333;
-        background: #111111;
+        border-bottom: 1px solid #3333;
+        background: #1111;
         font-size: 0.9rem;
     }
 
     .dropdown-menu a:hover {
-        background: #222222;
+        background: #2222;
         color: #4F7CFF;
     }
 
@@ -1575,7 +1732,9 @@ a {
 
     .services h2,
     .service-benefits h2,
-    .service-packages h2 {
+    .service-packages h2,
+    .common-issues h2,
+    .why-choose-us h2 {
         font-size: 2.2rem;
     }
 
@@ -1610,6 +1769,14 @@ a {
     }
 
     .faq-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .issues-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .reasons-grid {
         grid-template-columns: 1fr;
     }
 
@@ -1659,5 +1826,10 @@ a {
     .package-card.featured .package-header {
         padding-right: 2.5rem;
         text-align: center;
+    }
+
+    .issue-card,
+    .reason-card {
+        padding: 2rem;
     }
 }
