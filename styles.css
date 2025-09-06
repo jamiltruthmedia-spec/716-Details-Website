@@ -349,6 +349,13 @@ a {
     text-align: center;
 }
 
+.areas-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 4rem;
+}
+
 .area-item {
     background: white;
     padding: 2rem 1.5rem;
@@ -666,12 +673,12 @@ a {
 }
 
 /* Service Process */
-.service-process {
+.service-process, .tint-process {
     padding: 100px 0;
     background: white;
 }
 
-.service-process h2 {
+.service-process h2, .tint-process h2 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 4rem;
@@ -692,7 +699,7 @@ a {
 .step-number {
     width: 60px;
     height: 60px;
-    background: #d4af37;
+    background: #3182ce;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -712,6 +719,295 @@ a {
 .process-step p {
     color: #666;
     line-height: 1.7;
+}
+
+/* Tint Options */
+.tint-options {
+    padding: 100px 0;
+    background: #f8f9fa;
+}
+
+.tint-options h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+.tint-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+}
+
+.tint-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    position: relative;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.tint-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.tint-card.featured {
+    border: 2px solid #3182ce;
+    transform: scale(1.05);
+}
+
+.tint-card.featured:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+.tint-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #3182ce;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.tint-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.tint-percentage {
+    font-size: 1.2rem;
+    color: #3182ce;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.tint-features {
+    list-style: none;
+    margin: 2rem 0;
+    text-align: left;
+}
+
+.tint-features li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.tint-features li:last-child {
+    border-bottom: none;
+}
+
+.tint-price {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #3182ce;
+    margin: 2rem 0;
+}
+
+.tint-cta {
+    display: block;
+    background: #3182ce;
+    color: white;
+    padding: 1.2rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.tint-cta:hover {
+    background: #2c5aa0;
+    transform: translateY(-2px);
+}
+
+/* Legal Info */
+.legal-info {
+    padding: 100px 0;
+    background: white;
+}
+
+.legal-info h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+.legal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.legal-card {
+    background: #f8f9fa;
+    padding: 2.5rem;
+    border-radius: 16px;
+    text-align: center;
+    border-left: 4px solid #3182ce;
+}
+
+.legal-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.legal-card p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+.legal-note {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* Related Services */
+.related-services {
+    padding: 100px 0;
+    background: #f8f9fa;
+}
+
+.related-services h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.related-services > p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 4rem;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+}
+
+.related-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.related-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.related-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.related-card p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.related-link {
+    color: #3182ce;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.related-link:hover {
+    color: #2c5aa0;
+}
+
+/* Final CTA */
+.final-cta {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #3182ce, #2c5aa0);
+    color: white;
+    text-align: center;
+}
+
+.final-cta h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.final-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.95;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    padding: 1.2rem 2.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.cta-button.primary {
+    background: white;
+    color: #3182ce;
+}
+
+.cta-button.primary:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+}
+
+.cta-button.secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.cta-button.secondary:hover {
+    background: white;
+    color: #3182ce;
+}
+
+.cta-button.large {
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
 }
 
 /* Service Areas Detail */
