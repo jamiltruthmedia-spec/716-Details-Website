@@ -102,7 +102,7 @@ a {
 }
 
 .nav-menu a {
-    color: #ffff;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 500;
     font-size: 1rem;
@@ -118,7 +118,7 @@ a {
     position: absolute;
     top: 100%;
     left: 0;
-    background: #0000;
+    background: #000000;
     min-width: 220px;
     opacity: 0;
     visibility: hidden;
@@ -145,14 +145,14 @@ a {
 .dropdown-menu a {
     display: block;
     padding: 0.75rem 1.5rem;
-    color: #ffff;
+    color: #ffffff;
     text-decoration: none;
     transition: all 0.3s ease;
     font-size: 0.95rem;
 }
 
 .dropdown-menu a:hover {
-    background-color: #1111;
+    background-color: #111111;
     color: #4F7CFF;
 }
 
@@ -162,7 +162,7 @@ a {
     align-items: center;
 }
 
-.call-now-btn {
+.phone-btn, .call-now-btn {
     background: #4F7CFF;
     color: white;
     padding: 0.75rem 1.5rem;
@@ -175,7 +175,7 @@ a {
     cursor: pointer;
 }
 
-.call-now-btn:hover {
+.phone-btn:hover, .call-now-btn:hover {
     background: #3B5FE6;
     transform: translateY(-1px);
 }
@@ -191,6 +191,7 @@ a {
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
+    display: inline-block;
 }
 
 .cta-btn:hover {
@@ -217,7 +218,7 @@ a {
 
 .cta-btn.secondary:hover {
     background: white;
-    color: #0000;
+    color: #000000;
 }
 
 /* Hero Section */
@@ -230,7 +231,7 @@ a {
     text-align: center;
     color: white;
     overflow: hidden;
-    background: #0000;
+    background: #000000;
 }
 
 .hero-background {
@@ -271,7 +272,7 @@ a {
     font-weight: 800;
     margin-bottom: 1.5rem;
     line-height: 1.1;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .hero-subtitle {
@@ -301,12 +302,12 @@ a {
     font-size: 1rem;
     opacity: 0.9;
     font-weight: 500;
-    color: #ffff;
+    color: #ffffff;
 }
 
 /* Service Hero (for service pages) */
 .service-hero {
-    background: #0000;
+    background: #000000;
     color: white;
     padding: 140px 0 100px;
     text-align: center;
@@ -331,7 +332,7 @@ a {
     margin-bottom: 1.5rem;
     font-weight: 800;
     text-align: center;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .service-hero .hero-subtitle {
@@ -350,7 +351,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .service-hero .hero-cta {
@@ -363,7 +364,7 @@ a {
 /* Service Areas Preview */
 .service-areas-preview {
     padding: 80px 0;
-    background: #1111;
+    background: #111111;
 }
 
 .service-areas-preview h2 {
@@ -371,7 +372,7 @@ a {
     margin-bottom: 4rem;
     font-size: 2.8rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .areas-grid {
@@ -384,12 +385,12 @@ a {
 .areas-intro {
     text-align: center;
     font-size: 1.2rem;
-    color: #cccc;
+    color: #cccccc;
     margin-bottom: 4rem;
 }
 
 .area-item {
-    background: #0000;
+    background: #000000;
     padding: 2rem 1.5rem;
     border-radius: 12px;
     font-weight: 600;
@@ -397,19 +398,22 @@ a {
     box-shadow: 0 4px 20px rgba(255,255,255,0.08);
     transition: all 0.3s ease;
     border: 1px solid rgba(255,255,255,0.05);
-    color: #ffff;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
 }
 
 .area-item:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 30px rgba(79,124,255,0.3);
     border-color: #4F7CFF;
+    color: #ffffff;
 }
 
 /* About Section */
 .about {
     padding: 100px 0;
-    background: #0000;
+    background: #000000;
 }
 
 .about-content {
@@ -422,14 +426,14 @@ a {
     font-size: 3rem;
     margin-bottom: 2.5rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .about p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     line-height: 1.8;
-    color: #cccc;
+    color: #cccccc;
 }
 
 .about-features {
@@ -449,7 +453,7 @@ a {
 /* Services Section */
 .services {
     padding: 100px 0;
-    background: #1111;
+    background: #111111;
 }
 
 .services h2 {
@@ -457,7 +461,14 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-bottom: 4rem;
 }
 
 .services-grid {
@@ -467,7 +478,7 @@ a {
 }
 
 .service-card {
-    background: #0000;
+    background: #000000;
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -515,7 +526,7 @@ a {
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .service-card h3 a {
@@ -537,7 +548,7 @@ a {
     margin-bottom: 0.8rem;
     font-size: 1rem;
     line-height: 1.6;
-    color: #cccc;
+    color: #cccccc;
 }
 
 .service-price {
@@ -567,7 +578,7 @@ a {
 /* Service Benefits (for service pages) */
 .service-benefits {
     padding: 100px 0;
-    background: #0000;
+    background: #000000;
 }
 
 .service-benefits h2 {
@@ -575,7 +586,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .benefits-grid {
@@ -599,19 +610,19 @@ a {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .benefit-card p {
     font-size: 1.1rem;
-    color: #cccc;
+    color: #cccccc;
     line-height: 1.7;
 }
 
 /* Service Packages (for service pages) */
 .service-packages {
     padding: 100px 0;
-    background: #1111;
+    background: #111111;
 }
 
 .service-packages h2 {
@@ -619,7 +630,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .packages-grid {
@@ -629,7 +640,7 @@ a {
 }
 
 .package-card {
-    background: #0000;
+    background: #000000;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -680,7 +691,7 @@ a {
     font-size: 1.8rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .package-price {
@@ -696,10 +707,10 @@ a {
 
 .package-features li {
     padding: 1rem 0;
-    border-bottom: 1px solid #3333;
+    border-bottom: 1px solid #333333;
     font-size: 1rem;
     line-height: 1.6;
-    color: #cccc;
+    color: #cccccc;
 }
 
 .package-features li:last-child {
@@ -726,17 +737,17 @@ a {
 }
 
 /* Service Process */
-.service-process, .tint-process {
+.service-process {
     padding: 100px 0;
-    background: #0000;
+    background: #000000;
 }
 
-.service-process h2, .tint-process h2 {
+.service-process h2 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .process-steps {
@@ -768,185 +779,18 @@ a {
     font-size: 1.4rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .process-step p {
-    color: #cccc;
-    line-height: 1.7;
-}
-
-/* Tint Options */
-.tint-options {
-    padding: 100px 0;
-    background: #1111;
-}
-
-.tint-options h2 {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 4rem;
-    font-weight: 700;
-    color: #ffff;
-}
-
-.tint-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2.5rem;
-}
-
-.tint-card {
-    background: #0000;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 8px 30px rgba(255,255,255,0.08);
-    position: relative;
-    transition: all 0.3s ease;
-    border: 1px solid rgba(255,255,255,0.05);
-    padding: 2.5rem;
-    text-align: center;
-}
-
-.tint-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(79,124,255,0.3);
-    border-color: #4F7CFF;
-}
-
-.tint-card.featured {
-    border: 2px solid #4F7CFF;
-    transform: scale(1.05);
-}
-
-.tint-card.featured:hover {
-    transform: scale(1.05) translateY(-10px);
-}
-
-.tint-badge {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: #4F7CFF;
-    color: white;
-    padding: 0.6rem 1.2rem;
-    border-radius: 25px;
-    font-weight: 600;
-    font-size: 0.9rem;
-}
-
-.tint-card h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    color: #ffff;
-}
-
-.tint-percentage {
-    font-size: 1.2rem;
-    color: #4F7CFF;
-    font-weight: 600;
-    margin-bottom: 2rem;
-}
-
-.tint-features {
-    list-style: none;
-    margin: 2rem 0;
-    text-align: left;
-}
-
-.tint-features li {
-    padding: 0.8rem 0;
-    border-bottom: 1px solid #3333;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #cccc;
-}
-
-.tint-features li:last-child {
-    border-bottom: none;
-}
-
-.tint-price {
-    font-size: 2rem;
-    font-weight: 800;
-    color: #4F7CFF;
-    margin: 2rem 0;
-}
-
-.tint-cta {
-    display: block;
-    background: #4F7CFF;
-    color: white;
-    padding: 1.2rem 2rem;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
-.tint-cta:hover {
-    background: #3B5FE6;
-    transform: translateY(-2px);
-}
-
-/* Legal Info */
-.legal-info {
-    padding: 100px 0;
-    background: #0000;
-}
-
-.legal-info h2 {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 4rem;
-    font-weight: 700;
-    color: #ffff;
-}
-
-.legal-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2.5rem;
-    margin-bottom: 3rem;
-}
-
-.legal-card {
-    background: #1111;
-    padding: 2.5rem;
-    border-radius: 16px;
-    text-align: center;
-    border-left: 4px solid #4F7CFF;
-}
-
-.legal-card h3 {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    color: #ffff;
-}
-
-.legal-card p {
-    color: #cccc;
-    line-height: 1.7;
-    font-size: 1.1rem;
-}
-
-.legal-note {
-    text-align: center;
-    font-size: 1.1rem;
-    color: #cccc;
-    max-width: 800px;
-    margin: 0 auto;
+    color: #cccccc;
     line-height: 1.7;
 }
 
 /* Related Services */
 .related-services {
     padding: 100px 0;
-    background: #1111;
+    background: #111111;
 }
 
 .related-services h2 {
@@ -954,13 +798,13 @@ a {
     font-size: 3rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .related-services > p {
     text-align: center;
     font-size: 1.2rem;
-    color: #cccc;
+    color: #cccccc;
     margin-bottom: 4rem;
 }
 
@@ -971,7 +815,7 @@ a {
 }
 
 .related-card {
-    background: #0000;
+    background: #000000;
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -989,11 +833,11 @@ a {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .related-card p {
-    color: #cccc;
+    color: #cccccc;
     line-height: 1.7;
     margin-bottom: 1.5rem;
 }
@@ -1021,14 +865,14 @@ a {
     font-size: 3rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .final-cta p {
     font-size: 1.2rem;
     margin-bottom: 2.5rem;
     opacity: 0.95;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .cta-buttons {
@@ -1077,7 +921,7 @@ a {
 /* Service Areas Detail */
 .service-areas, .service-areas-detail {
     padding: 100px 0;
-    background: #1111;
+    background: #111111;
 }
 
 .service-areas h2, .service-areas-detail h2 {
@@ -1085,14 +929,7 @@ a {
     font-size: 3rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #ffff;
-}
-
-.section-subtitle {
-    text-align: center;
-    font-size: 1.2rem;
-    color: #cccc;
-    margin-bottom: 4rem;
+    color: #ffffff;
 }
 
 .areas-detail-grid {
@@ -1102,7 +939,7 @@ a {
 }
 
 .area-detail-card, .area-card {
-    background: #0000;
+    background: #000000;
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -1120,11 +957,11 @@ a {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .area-detail-card p, .area-card p {
-    color: #cccc;
+    color: #cccccc;
     line-height: 1.7;
     margin-bottom: 1.5rem;
 }
@@ -1157,14 +994,14 @@ a {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .emergency-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     opacity: 0.95;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .cta-btn.emergency {
@@ -1183,7 +1020,7 @@ a {
 /* Service Selection CTA */
 .service-selection-cta {
     padding: 100px 0;
-    background: #0000;
+    background: #000000;
     text-align: center;
 }
 
@@ -1191,12 +1028,12 @@ a {
     font-size: 2.8rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .selection-content p {
     font-size: 1.2rem;
-    color: #cccc;
+    color: #cccccc;
     margin-bottom: 2.5rem;
 }
 
@@ -1224,7 +1061,7 @@ a {
 /* FAQ Section */
 .faq-section {
     padding: 100px 0;
-    background: #0000;
+    background: #000000;
 }
 
 .faq-section h2 {
@@ -1232,7 +1069,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .faq-grid {
@@ -1243,7 +1080,7 @@ a {
 
 .faq-item {
     padding: 2rem;
-    background: #1111;
+    background: #111111;
     border-radius: 12px;
     border-left: 4px solid #4F7CFF;
 }
@@ -1252,18 +1089,18 @@ a {
     font-size: 1.3rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .faq-item p {
-    color: #cccc;
+    color: #cccccc;
     line-height: 1.7;
 }
 
 /* Contact Section */
 .contact, .contact-section {
     padding: 100px 0;
-    background: #1111;
+    background: #111111;
 }
 
 .contact h2, .contact-section h2 {
@@ -1271,7 +1108,7 @@ a {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .contact-content {
@@ -1285,17 +1122,17 @@ a {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .contact-item {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
-    color: #cccc;
+    color: #cccccc;
 }
 
 .contact-item strong {
-    color: #ffff;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -1309,7 +1146,7 @@ a {
 }
 
 .contact-form {
-    background: #0000;
+    background: #000000;
     padding: 3rem;
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(255,255,255,0.08);
@@ -1320,7 +1157,7 @@ a {
     font-size: 1.8rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .form-row {
@@ -1336,328 +1173,10 @@ a {
 
 .form-group input,
 .form-group select,
-.form-group textarea {
+.form-group textarea,
+.form-row input,
+.form-row select,
+input, select, textarea {
     width: 100%;
     padding: 1rem;
-    border: 2px solid #3333;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-    font-family: inherit;
-    background: #1111;
-    color: #ffff;
-}
-
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: #4F7CFF;
-}
-
-.submit-btn {
-    background: #4F7CFF;
-    color: white;
-    padding: 1.2rem 2rem;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: 100%;
-}
-
-.submit-btn:hover {
-    background: #3B5FE6;
-    transform: translateY(-2px);
-}
-
-/* Footer */
-.footer {
-    background: #0000;
-    color: white;
-    padding: 60px 0 30px;
-    border-top: 1px solid #3333;
-}
-
-.footer-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 3rem;
-    margin-bottom: 3rem;
-}
-
-.footer-section h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-    color: #ffff;
-}
-
-.footer-section h4 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-    color: #ffff;
-}
-
-.footer-section p {
-    color: #cccc;
-    line-height: 1.7;
-    margin-bottom: 1.5rem;
-}
-
-.footer-contact p {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-    color: #cccc;
-}
-
-.footer-contact a {
-    color: #4F7CFF;
-    font-weight: 600;
-}
-
-.footer-section ul {
-    list-style: none;
-}
-
-.footer-section ul li {
-    margin-bottom: 0.5rem;
-}
-
-.footer-section ul li a {
-    color: #cccc;
-    transition: color 0.3s ease;
-}
-
-.footer-section ul li a:hover {
-    color: #4F7CFF;
-}
-
-.footer-bottom {
-    border-top: 1px solid #3333;
-    padding-top: 2rem;
-    text-align: center;
-    color: #cccc;
-}
-
-.footer-bottom a {
-    color: #4F7CFF;
-}
-
-/* Mobile Navigation */
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    padding: 0.5rem;
-}
-
-.hamburger .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #ffff;
-    margin: 3px 0;
-    transition: 0.3s;
-}
-
-.hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger.active .bar:nth-child(1) {
-    transform: translateY(9px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3) {
-    transform: translateY(-9px) rotate(-45deg);
-}
-
-.nav-cta {
-    background: #4F7CFF;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    transition: all 0.3s ease;
-}
-
-.nav-cta:hover {
-    background: #3B5FE6;
-    transform: translateY(-1px);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .hamburger {
-    display: flex;
-    }
-
-    .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    flex-direction: column;
-    background-color: #0000;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(255,255,255,0.05);
-    padding: 2rem 0;
-    gap: 0;
-    border-top: 1px solid #3333;
-    }
-
-    .nav-menu.active {
-    left: 0;
-    }
-
-    .nav-menu a {
-    padding: 1rem;
-    display: block;
-    border-bottom: 1px solid #3333;
-    color: #ffff;
-    }
-
-    /* Mobile dropdown styles */
-    .dropdown-menu {
-    position: static;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    background: #1111;
-    box-shadow: none;
-    border: none;
-    margin: 0;
-    padding: 0;
-    border-radius: 0;
-    display: none;
-    }
-
-    .nav-menu li:hover .dropdown-menu {
-    display: block;
-    }
-
-    .dropdown-menu a {
-    padding: 0.75rem 2rem;
-    border-bottom: 1px solid #3333;
-    background: #1111;
-    font-size: 0.9rem;
-    }
-
-    .dropdown-menu a:hover {
-    background: #2222;
-    color: #4F7CFF;
-    }
-
-    .nav-cta,
-    .call-now-btn {
-    margin: 1rem;
-    display: inline-block;
-    }
-
-    .hero-content h1 {
-    font-size: 2.5rem;
-    }
-
-    .service-hero h1,
-    .service-hero .hero-title {
-    font-size: 2.5rem;
-    }
-
-    h2 {
-    font-size: 2rem;
-    }
-
-    .services h2,
-    .service-benefits h2,
-    .service-packages h2 {
-    font-size: 2.2rem;
-    }
-
-    .hero-cta,
-    .selection-cta {
-    flex-direction: column;
-    align-items: center;
-    }
-
-    .hero-features,
-    .selection-features {
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
-    }
-
-    .contact-content {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    }
-
-    .form-row {
-    grid-template-columns: 1fr;
-    }
-
-    .services-grid {
-    grid-template-columns: 1fr;
-    }
-
-    .packages-grid {
-    grid-template-columns: 1fr;
-    }
-
-    .faq-grid {
-    grid-template-columns: 1fr;
-    }
-
-    .package-badge {
-    top: 15px;
-    right: 15px;
-    padding: 0.5rem 1rem;
-    font-size: 0.8rem;
-    }
-
-    .package-card.featured .package-header {
-    padding-right: 120px;
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-    padding: 0 15px;
-    }
-
-    .hero-content h1 {
-    font-size: 2rem;
-    }
-
-    .service-hero h1,
-    .service-hero .hero-title {
-    font-size: 2rem;
-    }
-
-    .service-card,
-    .package-card {
-    padding: 2rem;
-    }
-
-    .contact-form {
-    padding: 2rem;
-    }
-
-    .package-badge {
-    position: relative;
-    top: 0;
-    right: 0;
-    display: inline-block;
-    margin-bottom: 1rem;
-    }
-
-    .package-card.featured .package-header {
-    padding-right: 2.5rem;
-    text-align: center;
-    }
-}
+    border: 2px soli
