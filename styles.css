@@ -1608,3 +1608,13 @@ input:focus, select:focus, textarea:focus {
         padding: 1.5rem 1rem;
     }
 }
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 100px !important;
+        min-height: 100vh;
+    }
+    .hero h1 {
+        font-size: 24px !important;
+        margin-top: 30px !important;
+    }
+}
