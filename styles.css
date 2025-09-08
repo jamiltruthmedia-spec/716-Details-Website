@@ -1438,6 +1438,15 @@ input:focus, select:focus, textarea:focus {
         border-top: 1px solid #333333;
     }
 
+    /* Fix hero section to account for fixed navbar */
+    .hero {
+        padding-top: 100px;
+    }
+
+    .service-hero {
+        padding-top: 160px;
+    }
+
     .nav-menu.active {
         left: 0;
     }
@@ -1561,6 +1570,15 @@ input:focus, select:focus, textarea:focus {
 @media (max-width: 480px) {
     .container {
         padding: 0 15px;
+    }
+
+    /* Additional padding for smaller screens */
+    .hero {
+        padding-top: 120px;
+    }
+
+    .service-hero {
+        padding-top: 180px;
     }
 
     .hero-content h1 {
